@@ -1,8 +1,10 @@
 Requests currently served by URLs like 
-https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_for_me
 https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_for_me?recipient=User2
-https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/send_msg
-The app allows you to send messages easily but they can be enconded manually in a browser with the same URLs.
+https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_thread?recipient=User2&sender=User1
+https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/send_msg?recipient=u1&sender=u2&msg=testmessage1
+https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/delete_msg?recipient=User2&sender=User1
+
+The app allows you to send messages easily but they can be enconded manually in a browser with the same URLs as above.
 
 This modified backend starter code and can send messages using Volley and POST/GET Requests.
 The app sends Strings over HTTP but I believe components can send JSONObjects or JSONArrays with the params.put().
