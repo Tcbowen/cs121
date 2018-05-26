@@ -1,4 +1,5 @@
 Requests currently served by URLs like 
+https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_dump
 https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_for_me?recipient=User2
 https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_thread?recipient=User2&sender=User1
 https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/send_msg?recipient=u1&sender=u2&msg=testmessage1
