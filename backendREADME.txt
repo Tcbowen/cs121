@@ -1,3 +1,8 @@
+***********************
+README for BackendTest1-v4. This version is deprecated but shows how the backend serves GET and POST requests to URLs.
+Ignore or remove BackendTest1-v3
+***********************
+
 Requests currently served by URLs like 
 https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_dump
 https://bathroom-map-1525993289750.appspot.com/backend/api_w_ndb/get_msg_for_me?recipient=User2
