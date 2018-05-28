@@ -1,0 +1,21 @@
+***********************
+README for BackendTest22-v1. This is the most recent version
+Ignore or remove BackendTest1-v3
+***********************
+
+Requests currently served by URLs like 
+https://bathroom-map-1525993289750.appspot.com/backend/api/get_json_dump
+https://bathroom-map-1525993289750.appspot.com/backend/api/get_user_json?id=db40a1c2-a212-4dab-819d-fbf65d1a69c6
+https://bathroom-map-1525993289750.appspot.com/backend/api/send_json?id=db40a1c2-a212-4dab-819d-fbf65d1a69c6&content=testing
+https://bathroom-map-1525993289750.appspot.com/backend/users/login
+
+The app allows you to register accounts on the server and receive a unique USER_ID token.
+
+You can send messages using Volley and POST/GET Requests.
+The app sends Strings over HTTP which can be in the form of JSON text, and I believe it can be modified to use JSONObjects more directly.
+
+This version uses POST requests for all data transfer but GET can be used if URLs are constructed manually (see BackendTest1-v4 for GET)
+
+In the backend, it queries the User Class database, filters using POST parameters, and returns a dictionary the User Class variables
+Currently the user class only keeps track of user_name (first name) and user_content (JSON text)
+The way these pairs and objects are stored can be modified for whatever component and other database Classes can be created for them.
