@@ -1,0 +1,2 @@
+The server can be compiled and tested locally, but any changes will have no effect without deploying app.yaml using cloud/appengine SDK
+If anyone wants to be in charge of deploying changes to the cloud I can send you project credentials key or you can create a new google cloud project
